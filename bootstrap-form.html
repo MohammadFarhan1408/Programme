@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Bootstrap-Form</title>
+<style>
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" role="form" class="form-horizontal">
+	<div class="container">
+		<form>
+			<fieldset>
+				<legend>Bootstrap Form</legend>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="form-group">
+							<label for="txtfname">First Name</label>
+							<input type="text" name="txtfname" id="txtfname" autocomplete="off" placeholder="Your Name" class="form-control">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<label for="txtlname">Last Name</label>
+							<input type="text" name="txtlname" id="txtlname" autocomplete="off" placeholder="Your Name" class="form-control">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<label for="txtnumber">Contact No.</label>
+							<input type="text" name="txtnumber" id="txtnumber" autocomplete="off" placeholder="Your Number" class="form-control">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<label for="txtdob">Date Of Birth</label>
+							<input id="txtdob" name="txtdob" type="date" class="form-control" autocomplete="off" required>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="form-group">
+							<label for="txtaddress">Address</label>
+							<textarea name="txtaddress" id="txtaddress" autocomplete="off" placeholder="Address" class="form-control" rows="5" cols="40"></textarea>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</form>												
+</body>
+</html>
